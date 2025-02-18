@@ -16,7 +16,6 @@ public class HelloWorld {
 
 		System.out.println("Adding a commit directly from GitHub");
 		
-		System.out.println("Adding a multiple changes");
 
 		/* 
 		Some Comment
