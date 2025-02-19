@@ -21,7 +21,6 @@ public class HelloWorld {
 		/* 
 		Some Comment
 		*/	
-		
-		System.out.println("Committing to master branch");
+
 	}	
 }
