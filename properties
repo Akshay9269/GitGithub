@@ -1,3 +1,4 @@
 server.port=8080
 endpoint=/ddgs
 app.name=springboot
+server.name=jboss
