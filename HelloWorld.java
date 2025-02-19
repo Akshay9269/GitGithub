@@ -23,6 +23,8 @@ public class HelloWorld {
 		*/	
 		
 		System.out.println("Backing out after commit");
+		
+		System.out.println("Backing out after commit 2");
 
 	}	
 }
