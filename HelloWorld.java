@@ -4,9 +4,12 @@ public class HelloWorld {
 		
 		int a=10;
 		
-		for (int i=0;i<a;i++){
+		for (int l=0;l<a;l++){
 			System.out.println(i);
 			for (int j=0;j<a;j++){
+				System.out.println(j);
+			}
+			for (int i=0;i<a;i++){
 				System.out.println(j);
 			}
 		}
