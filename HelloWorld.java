@@ -11,6 +11,17 @@ String input="a02b13";
             char ch=input.charAt(i);
             if (Character.isDigit(ch)){
                 num=num+ch;
+				for (int m=0;m<a;m++){			
+			System.out.println(i);
+					for (int l=0;l<a;l++){
+						System.out.println(j);
+			}
+			
+			for (int i=0;i<a;i++){
+				System.out.println(j);
+			}
+
+		}
             }else {
                 if (!num.isEmpty()) {
                     for (int j = 0; j < Integer.parseInt(num); j++) {
@@ -21,6 +32,7 @@ String input="a02b13";
                 num="";
             }
         }
+		
 		System.out.println(a);
 
 		System.out.println("Hello World");
