@@ -8,11 +8,18 @@ public class HelloWorld {
 		while(i!=a){
 			System.out.println(i);
 			i++;
+			
+		for (int l=0;l<a;l++){
+			System.out.println(i);
+			for (int j=0;j<a;j++){
+				System.out.println(j);
+			}
+			for (int i=0;i<a;i++){
+				System.out.println(j);
+			}
+
 		}
-		
-		for (int j=0;j<a;j++){
-			System.out.println(j);
-		}
+
 		
 		if(a>10){
 			System.out.println(10);
