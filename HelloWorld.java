@@ -21,6 +21,18 @@ String input="a02b13";
                 num="";
             }
         }
+		System.out.println(a);
+
+		System.out.println("Hello World");
+
+		System.out.println("Using git and gihub for version control!");
+		
+
+		/* 
+		Some Comment
+		*/	
+		
+		System.out.println("Backing out after commit");
 
         if (num.length()!=0){
             for (int k=0;k<Integer.parseInt(num);k++){
@@ -29,6 +41,14 @@ String input="a02b13";
         }
 
         System.out.println(output);
+		
+		System.out.println("Autor : Akshay Bondarde")
+		
+		System.out.println("Adding a line to check the shah");
+
+		System.out.println("Adding a commit directly from GitHub");
+		
+		System.out.println("Adding a multiple changes");
 
 	}	
 }
