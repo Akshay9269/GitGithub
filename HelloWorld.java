@@ -5,13 +5,17 @@ public class HelloWorld {
 String input="a02b13";
         String output="";
         String num="";
+	System.out.println(a);
 
+		System.out.println("Hello World");
+
+		System.out.println("Using git and gihub for version control!");
 
         for (int i=0;i<input.length();i++){
             char ch=input.charAt(i);
             if (Character.isDigit(ch)){
                 num=num+ch;
-				for (int m=0;m<a;m++){			
+				for (int l=0;k<a;m++){			
 			System.out.println(i);
 					for (int l=0;l<a;l++){
 						System.out.println(j);
@@ -19,6 +23,9 @@ String input="a02b13";
 			
 			for (int i=0;i<a;i++){
 				System.out.println(j);
+				System.out.println("Adding a line to check the shah");
+
+		System.out.println("Adding a commit directly from GitHub");
 			}
 
 		}
