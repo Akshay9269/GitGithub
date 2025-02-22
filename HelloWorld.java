@@ -4,9 +4,14 @@ public class HelloWorld {
 		
 		int a=10;
 		int i=0;
+		
 		while(i!=a){
 			System.out.println(i);
 			i++;
+		}
+		
+		for (int j=0;j<a;j++){
+			System.out.println(j);
 		}
 		
 		System.out.println(a);
