@@ -7,6 +7,24 @@ String input="a02b13";
         String num="";
 	System.out.println(a);
 
+        List<Integer> list= Arrays.asList(1,2,1,4,5,2,1);
+        Map<Integer,Integer> map=new HashMap<>();
+
+        list.stream()
+
+        /*
+        list.stream()
+                .forEach(c->map.put(c,map.getOrDefault(c,0)+1));
+        System.out.println(map);
+
+         */
+        /*
+        for (int num:list){
+        map.put(num,map.getOrDefault(num,0)+1);
+        }
+        System.out.println(map);
+
+         */
 		System.out.println("Hello World");
 
 		System.out.println("Using git and gihub for version control!");
@@ -17,8 +35,10 @@ String input="a02b13";
                 num=num+ch;
 				for (int l=0;k<a;m++){			
 			System.out.println(i);
-					for (int l=0;l<a;l++){
-						System.out.println(j);
+				 for (int num:list){
+        map.put(num,map.getOrDefault(num,0)+1);
+        }
+        System.out.println(map);
 			}
 			
 			for (int i=0;i<a;i++){
