@@ -3,6 +3,16 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		
 		int a=10;
+		int i=0;
+		
+		while(i!=a){
+			System.out.println(i);
+			i++;
+		}
+		
+		for (int j=0;j<a;j++){
+			System.out.println(j);
+		}
 		
 		for (int i=0;i<a;i++){
 			System.out.println(i);
