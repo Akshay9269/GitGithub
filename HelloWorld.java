@@ -6,6 +6,13 @@ public class HelloWorld {
 		
 		for (int i=0;i<a;i++){
 			System.out.println(i);
+			for (int j=0;j<a;j++){
+				System.out.println(j);
+			}
+		}
+		
+		While(k!=a){
+			System.out.println(k);
 		}
 		
 		System.out.println(a);
