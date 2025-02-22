@@ -2,51 +2,33 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		
-		int a=10;
-		int i=0;
-		
-		while(i!=a){
-			System.out.println(i);
-			i++;
-			
-		for (int l=0;l<a;l++){
-			System.out.println(i);
-			for (int j=0;j<a;j++){
-				System.out.println(j);
-			}
-			for (int i=0;i<a;i++){
-				System.out.println(j);
-			}
+String input="a02b13";
+        String output="";
+        String num="";
 
-		}
 
-		
-		if(a>10){
-			System.out.println(10);
-		}else{
-			System.out.println("do not print anything");
-		}
-		
-		
-		System.out.println(a);
+        for (int i=0;i<input.length();i++){
+            char ch=input.charAt(i);
+            if (Character.isDigit(ch)){
+                num=num+ch;
+            }else {
+                if (!num.isEmpty()) {
+                    for (int j = 0; j < Integer.parseInt(num); j++) {
+                        output = output + 1;
+                    }
+                }
+                output=output+ch;
+                num="";
+            }
+        }
 
-		System.out.println("Hello World");
+        if (num.length()!=0){
+            for (int k=0;k<Integer.parseInt(num);k++){
+                output=output+1;
+            }
+        }
 
-		System.out.println("Using git and gihub for version control!");
-		
-		System.out.println("Autor : Akshay Bondarde")
-		
-		System.out.println("Adding a line to check the shah");
-
-		System.out.println("Adding a commit directly from GitHub");
-		
-		System.out.println("Adding a multiple changes");
-
-		/* 
-		Some Comment
-		*/	
-		
-		System.out.println("Backing out after commit");
+        System.out.println(output);
 
 	}	
 }
