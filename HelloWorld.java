@@ -4,16 +4,12 @@ public class HelloWorld {
 		
 		int a=10;
 		
-		for (int i=0;i<a;i++){
-			System.out.println(i);
-			for (int j=0;j<a;j++){
-				System.out.println(j);
-			}
+		if(a>10){
+			System.out.println(10);
+		}else{
+			System.out.println("do not print anything");
 		}
 		
-		While(k!=a){
-			System.out.println(k);
-		}
 		
 		System.out.println(a);
 
